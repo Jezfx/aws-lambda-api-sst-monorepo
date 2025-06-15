@@ -11,10 +11,10 @@
   },
   "iconLibrary": "lucide",
   "aliases": {
-    "components": "@workspace/ui/components",
-    "utils": "@workspace/ui/lib/utils",
-    "hooks": "@workspace/ui/hooks",
-    "lib": "@workspace/ui/lib",
-    "ui": "@workspace/ui/components"
+    "components": "@sst-vitals/ui/components",
+    "utils": "@sst-vitals/ui/lib/utils",
+    "hooks": "@sst-vitals/ui/hooks",
+    "lib": "@sst-vitals/ui/lib",
+    "ui": "@sst-vitals/ui/components"
   }
 }

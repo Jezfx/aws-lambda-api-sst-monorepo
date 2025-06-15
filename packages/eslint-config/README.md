@@ -1,3 +1,3 @@
-# `@workspace/eslint-config`
+# `@sst-vitals/eslint-config`
 
 Shared eslint configuration for the workspace.
