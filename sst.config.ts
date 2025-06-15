@@ -13,15 +13,14 @@ export default $config({
     const next = await import("./infra/nextjs");
     const api = new sst.aws.ApiGatewayV2("MyApi");
 
-    api.route("GET /hello", {
-      handler: "packages/functions/src/hello.handler",
+    api.route("GET /vitals", {
+      handler: "packages/functions/src/vitals.handler",
     });
-
 
     return {
       url: next.nextjs.url,
-      apiUrl: api.url,            
-      nextUrl: next.nextjs.url,   
+      apiUrl: api.url,
+      nextUrl: next.nextjs.url,
     };
   },
 });
